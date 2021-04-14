@@ -13,7 +13,25 @@
 		6268C9F12627562D00D5B660 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6268C9EF2627562D00D5B660 /* Main.storyboard */; };
 		6268C9F32627562D00D5B660 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6268C9F22627562D00D5B660 /* Assets.xcassets */; };
 		6268C9F62627562D00D5B660 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6268C9F42627562D00D5B660 /* LaunchScreen.storyboard */; };
+		6268CA062627587E00D5B660 /* license_3rdpartynotice_vuforia.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6268CA022627587E00D5B660 /* license_3rdpartynotice_vuforia.txt */; };
+		6268CA072627587E00D5B660 /* readme_vuforia.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6268CA032627587E00D5B660 /* readme_vuforia.txt */; };
+		6268CA0E2627591700D5B660 /* Vuforia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6268CA052627587E00D5B660 /* Vuforia.framework */; };
+		6268CA0F2627591700D5B660 /* Vuforia.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6268CA052627587E00D5B660 /* Vuforia.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6268CA102627591700D5B660 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				6268CA0F2627591700D5B660 /* Vuforia.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		6268C9E62627562D00D5B660 /* vuforia-metal-example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "vuforia-metal-example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,6 +42,9 @@
 		6268C9F22627562D00D5B660 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6268C9F52627562D00D5B660 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6268C9F72627562D00D5B660 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6268CA022627587E00D5B660 /* license_3rdpartynotice_vuforia.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = license_3rdpartynotice_vuforia.txt; sourceTree = "<group>"; };
+		6268CA032627587E00D5B660 /* readme_vuforia.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme_vuforia.txt; sourceTree = "<group>"; };
+		6268CA052627587E00D5B660 /* Vuforia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Vuforia.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6268CA0E2627591700D5B660 /* Vuforia.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +62,7 @@
 		6268C9DD2627562D00D5B660 = {
 			isa = PBXGroup;
 			children = (
+				6268C9FF2627587E00D5B660 /* Frameworks */,
 				6268C9E82627562D00D5B660 /* vuforia-metal-example */,
 				6268C9E72627562D00D5B660 /* Products */,
 			);
@@ -67,6 +90,41 @@
 			path = "vuforia-metal-example";
 			sourceTree = "<group>";
 		};
+		6268C9FF2627587E00D5B660 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6268CA002627587E00D5B660 /* vuforia-sdk-ios-9-7-4 */,
+			);
+			name = Frameworks;
+			path = "vuforia-metal-example/Frameworks";
+			sourceTree = "<group>";
+		};
+		6268CA002627587E00D5B660 /* vuforia-sdk-ios-9-7-4 */ = {
+			isa = PBXGroup;
+			children = (
+				6268CA012627587E00D5B660 /* licenses */,
+				6268CA032627587E00D5B660 /* readme_vuforia.txt */,
+				6268CA042627587E00D5B660 /* build */,
+			);
+			path = "vuforia-sdk-ios-9-7-4";
+			sourceTree = "<group>";
+		};
+		6268CA012627587E00D5B660 /* licenses */ = {
+			isa = PBXGroup;
+			children = (
+				6268CA022627587E00D5B660 /* license_3rdpartynotice_vuforia.txt */,
+			);
+			path = licenses;
+			sourceTree = "<group>";
+		};
+		6268CA042627587E00D5B660 /* build */ = {
+			isa = PBXGroup;
+			children = (
+				6268CA052627587E00D5B660 /* Vuforia.framework */,
+			);
+			path = build;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,6 +135,7 @@
 				6268C9E22627562D00D5B660 /* Sources */,
 				6268C9E32627562D00D5B660 /* Frameworks */,
 				6268C9E42627562D00D5B660 /* Resources */,
+				6268CA102627591700D5B660 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,6 +183,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6268CA062627587E00D5B660 /* license_3rdpartynotice_vuforia.txt in Resources */,
+				6268CA072627587E00D5B660 /* readme_vuforia.txt in Resources */,
 				6268C9F62627562D00D5B660 /* LaunchScreen.storyboard in Resources */,
 				6268C9F32627562D00D5B660 /* Assets.xcassets in Resources */,
 				6268C9F12627562D00D5B660 /* Main.storyboard in Resources */,
@@ -286,8 +347,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CODE_SIGN_STYLE = Automatic;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/vuforia-metal-example/Frameworks/vuforia-sdk-ios-9-7-4/build",
+				);
+				GCC_C_LANGUAGE_STANDARD = c99;
 				INFOPLIST_FILE = "vuforia-metal-example/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,6 +365,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_WORKSPACE = YES;
 			};
 			name = Debug;
 		};
@@ -304,8 +374,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CODE_SIGN_STYLE = Automatic;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/vuforia-metal-example/Frameworks/vuforia-sdk-ios-9-7-4/build",
+				);
+				GCC_C_LANGUAGE_STANDARD = c99;
 				INFOPLIST_FILE = "vuforia-metal-example/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -314,6 +392,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_WORKSPACE = YES;
 			};
 			name = Release;
 		};
