@@ -7,6 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		62664C9926275D8D00ABB28E /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62664C8326275D8D00ABB28E /* ARViewController.swift */; };
+		62664C9A26275D8D00ABB28E /* ARResult.mm in Sources */ = {isa = PBXBuildFile; fileRef = 62664C8626275D8D00ABB28E /* ARResult.mm */; };
+		62664C9B26275D8D00ABB28E /* ARControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62664C8726275D8D00ABB28E /* ARControllerDelegate.swift */; };
+		62664C9C26275D8D00ABB28E /* ARTargetParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62664C8826275D8D00ABB28E /* ARTargetParser.swift */; };
+		62664C9D26275D8D00ABB28E /* ARDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62664C8926275D8D00ABB28E /* ARDataSet.swift */; };
+		62664C9E26275D8D00ABB28E /* ARController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 62664C8A26275D8D00ABB28E /* ARController.mm */; };
+		62664C9F26275D8D00ABB28E /* ARController+VuforiaMath.mm in Sources */ = {isa = PBXBuildFile; fileRef = 62664C8B26275D8D00ABB28E /* ARController+VuforiaMath.mm */; };
+		62664CA026275D8D00ABB28E /* MetalRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62664C8E26275D8D00ABB28E /* MetalRenderer.swift */; };
+		62664CA126275D8D00ABB28E /* SquareModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62664C9026275D8D00ABB28E /* SquareModel.swift */; };
+		62664CA226275D8D00ABB28E /* RenderedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62664C9126275D8D00ABB28E /* RenderedObject.swift */; };
+		62664CA326275D8D00ABB28E /* VideoBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62664C9226275D8D00ABB28E /* VideoBackground.swift */; };
+		62664CA426275D8D00ABB28E /* AxisModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62664C9326275D8D00ABB28E /* AxisModel.swift */; };
+		62664CA526275D8D00ABB28E /* CubeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62664C9426275D8D00ABB28E /* CubeModel.swift */; };
+		62664CA626275D8D00ABB28E /* ARTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62664C9526275D8D00ABB28E /* ARTarget.swift */; };
+		62664CA726275D8D00ABB28E /* VuforiaView+Preparation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62664C9726275D8D00ABB28E /* VuforiaView+Preparation.swift */; };
+		62664CA826275D8D00ABB28E /* VuforiaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62664C9826275D8D00ABB28E /* VuforiaView.swift */; };
+		62664CAE26275EAC00ABB28E /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62664CAD26275EAC00ABB28E /* Helper.swift */; };
 		6268C9EA2627562D00D5B660 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6268C9E92627562D00D5B660 /* AppDelegate.swift */; };
 		6268C9EC2627562D00D5B660 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6268C9EB2627562D00D5B660 /* SceneDelegate.swift */; };
 		6268C9EE2627562D00D5B660 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6268C9ED2627562D00D5B660 /* ViewController.swift */; };
@@ -34,6 +51,26 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		62664C8326275D8D00ABB28E /* ARViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
+		62664C8526275D8D00ABB28E /* ARController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARController.h; sourceTree = "<group>"; };
+		62664C8626275D8D00ABB28E /* ARResult.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ARResult.mm; sourceTree = "<group>"; };
+		62664C8726275D8D00ABB28E /* ARControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARControllerDelegate.swift; sourceTree = "<group>"; };
+		62664C8826275D8D00ABB28E /* ARTargetParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARTargetParser.swift; sourceTree = "<group>"; };
+		62664C8926275D8D00ABB28E /* ARDataSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARDataSet.swift; sourceTree = "<group>"; };
+		62664C8A26275D8D00ABB28E /* ARController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ARController.mm; sourceTree = "<group>"; };
+		62664C8B26275D8D00ABB28E /* ARController+VuforiaMath.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "ARController+VuforiaMath.mm"; sourceTree = "<group>"; };
+		62664C8C26275D8D00ABB28E /* ARResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARResult.h; sourceTree = "<group>"; };
+		62664C8E26275D8D00ABB28E /* MetalRenderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetalRenderer.swift; sourceTree = "<group>"; };
+		62664C9026275D8D00ABB28E /* SquareModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SquareModel.swift; sourceTree = "<group>"; };
+		62664C9126275D8D00ABB28E /* RenderedObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RenderedObject.swift; sourceTree = "<group>"; };
+		62664C9226275D8D00ABB28E /* VideoBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoBackground.swift; sourceTree = "<group>"; };
+		62664C9326275D8D00ABB28E /* AxisModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AxisModel.swift; sourceTree = "<group>"; };
+		62664C9426275D8D00ABB28E /* CubeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CubeModel.swift; sourceTree = "<group>"; };
+		62664C9526275D8D00ABB28E /* ARTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARTarget.swift; sourceTree = "<group>"; };
+		62664C9726275D8D00ABB28E /* VuforiaView+Preparation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "VuforiaView+Preparation.swift"; sourceTree = "<group>"; };
+		62664C9826275D8D00ABB28E /* VuforiaView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VuforiaView.swift; sourceTree = "<group>"; };
+		62664CAC26275DEF00ABB28E /* BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
+		62664CAD26275EAC00ABB28E /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		6268C9E62627562D00D5B660 /* vuforia-metal-example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "vuforia-metal-example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6268C9E92627562D00D5B660 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6268C9EB2627562D00D5B660 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +96,71 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		62664C8126275D8D00ABB28E /* AR */ = {
+			isa = PBXGroup;
+			children = (
+				62664C8226275D8D00ABB28E /* Controller */,
+				62664C8426275D8D00ABB28E /* Model */,
+				62664C9626275D8D00ABB28E /* View */,
+			);
+			path = AR;
+			sourceTree = "<group>";
+		};
+		62664C8226275D8D00ABB28E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				62664C8326275D8D00ABB28E /* ARViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		62664C8426275D8D00ABB28E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				62664C8526275D8D00ABB28E /* ARController.h */,
+				62664C8626275D8D00ABB28E /* ARResult.mm */,
+				62664C8726275D8D00ABB28E /* ARControllerDelegate.swift */,
+				62664C8826275D8D00ABB28E /* ARTargetParser.swift */,
+				62664C8926275D8D00ABB28E /* ARDataSet.swift */,
+				62664C8A26275D8D00ABB28E /* ARController.mm */,
+				62664C8B26275D8D00ABB28E /* ARController+VuforiaMath.mm */,
+				62664C8C26275D8D00ABB28E /* ARResult.h */,
+				62664C8D26275D8D00ABB28E /* Rendering */,
+				62664C9526275D8D00ABB28E /* ARTarget.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		62664C8D26275D8D00ABB28E /* Rendering */ = {
+			isa = PBXGroup;
+			children = (
+				62664C8E26275D8D00ABB28E /* MetalRenderer.swift */,
+				62664C8F26275D8D00ABB28E /* Primitives */,
+			);
+			path = Rendering;
+			sourceTree = "<group>";
+		};
+		62664C8F26275D8D00ABB28E /* Primitives */ = {
+			isa = PBXGroup;
+			children = (
+				62664C9026275D8D00ABB28E /* SquareModel.swift */,
+				62664C9126275D8D00ABB28E /* RenderedObject.swift */,
+				62664C9226275D8D00ABB28E /* VideoBackground.swift */,
+				62664C9326275D8D00ABB28E /* AxisModel.swift */,
+				62664C9426275D8D00ABB28E /* CubeModel.swift */,
+			);
+			path = Primitives;
+			sourceTree = "<group>";
+		};
+		62664C9626275D8D00ABB28E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				62664C9726275D8D00ABB28E /* VuforiaView+Preparation.swift */,
+				62664C9826275D8D00ABB28E /* VuforiaView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		6268C9DD2627562D00D5B660 = {
 			isa = PBXGroup;
 			children = (
@@ -79,13 +181,16 @@
 		6268C9E82627562D00D5B660 /* vuforia-metal-example */ = {
 			isa = PBXGroup;
 			children = (
+				62664C8126275D8D00ABB28E /* AR */,
 				6268C9E92627562D00D5B660 /* AppDelegate.swift */,
+				62664CAD26275EAC00ABB28E /* Helper.swift */,
 				6268C9EB2627562D00D5B660 /* SceneDelegate.swift */,
 				6268C9ED2627562D00D5B660 /* ViewController.swift */,
 				6268C9EF2627562D00D5B660 /* Main.storyboard */,
 				6268C9F22627562D00D5B660 /* Assets.xcassets */,
 				6268C9F42627562D00D5B660 /* LaunchScreen.storyboard */,
 				6268C9F72627562D00D5B660 /* Info.plist */,
+				62664CAC26275DEF00ABB28E /* BridgingHeader.h */,
 			);
 			path = "vuforia-metal-example";
 			sourceTree = "<group>";
@@ -198,9 +303,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62664CA026275D8D00ABB28E /* MetalRenderer.swift in Sources */,
 				6268C9EE2627562D00D5B660 /* ViewController.swift in Sources */,
+				62664C9B26275D8D00ABB28E /* ARControllerDelegate.swift in Sources */,
+				62664CA626275D8D00ABB28E /* ARTarget.swift in Sources */,
+				62664C9A26275D8D00ABB28E /* ARResult.mm in Sources */,
+				62664C9D26275D8D00ABB28E /* ARDataSet.swift in Sources */,
 				6268C9EA2627562D00D5B660 /* AppDelegate.swift in Sources */,
+				62664CAE26275EAC00ABB28E /* Helper.swift in Sources */,
+				62664CA126275D8D00ABB28E /* SquareModel.swift in Sources */,
+				62664C9F26275D8D00ABB28E /* ARController+VuforiaMath.mm in Sources */,
+				62664C9C26275D8D00ABB28E /* ARTargetParser.swift in Sources */,
+				62664C9E26275D8D00ABB28E /* ARController.mm in Sources */,
+				62664CA726275D8D00ABB28E /* VuforiaView+Preparation.swift in Sources */,
+				62664CA526275D8D00ABB28E /* CubeModel.swift in Sources */,
+				62664CA226275D8D00ABB28E /* RenderedObject.swift in Sources */,
+				62664CA326275D8D00ABB28E /* VideoBackground.swift in Sources */,
+				62664CA426275D8D00ABB28E /* AxisModel.swift in Sources */,
+				62664CA826275D8D00ABB28E /* VuforiaView.swift in Sources */,
 				6268C9EC2627562D00D5B660 /* SceneDelegate.swift in Sources */,
+				62664C9926275D8D00ABB28E /* ARViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,6 +485,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "zli-jevgenije.vuforia-metal-example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "vuforia-metal-example/BridgingHeader.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_WORKSPACE = YES;
@@ -390,6 +513,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "zli-jevgenije.vuforia-metal-example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "vuforia-metal-example/BridgingHeader.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_WORKSPACE = YES;
