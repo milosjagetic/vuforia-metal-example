@@ -50,7 +50,7 @@ extension VuforiaView
             // Init the view and add it to the window
             let vuforiaView: VuforiaView = VuforiaView(renderer: renderer, frame: UIScreen.main.bounds)
             vuforiaView.translatesAutoresizingMaskIntoConstraints = false;
-//            vuforiaView.debugOptions = [.showTargetBounds, .showWorldOrigin]
+            vuforiaView.debugOptions = [.showTargetBounds, .showWorldOrigin]
             
             window.insertSubview(vuforiaView, at: 0)
             vuforiaView.pinToSuperview()

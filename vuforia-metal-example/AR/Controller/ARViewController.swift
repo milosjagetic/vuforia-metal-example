@@ -114,10 +114,13 @@ extension ARViewController: ARControllerDelegate
 {
     func arController(_ controller: ARController, didStartTracking target: ARResult)
     {
+        (plane.geometry as? SCNPlane)?.width = CGFloat(target.targetSize.x)
+        (plane.geometry as? SCNPlane)?.height = CGFloat(target.targetSize.y)
         vuforiaView.renderer.trackedNodes[target] = plane
     }
     
     func arController(_ controller: ARController, didStopTracking target: ARResult)
     {
+        vuforiaView.renderer.trackedNodes[target] = nil
     }
 }
